@@ -120,16 +120,23 @@ li {
 }
 
 .dark-mode {
-    background-color: #0e101d;
+    background-color: #0a1020;
     color: #fff;
 }
+
+
+/* style.css */
+/* ... previous styles ... */
 
 .footer {
     position: absolute;
     bottom: 0;
-    width: 100%;
-    text-align: left;
-    background-color: #282c3500;
+    left: 50%; /* Move the left edge to the center of the container */
+    transform: translateX(-50%); /* Translate back by -50% of its own width */
+    text-align: center;
+    background-color: #333e4900;
     padding: 10px 0;
     color: #fff;
+    width: 100%; /* Set the width to 100% to span the entire container */
 }
+
