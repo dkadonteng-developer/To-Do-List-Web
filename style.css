@@ -125,18 +125,16 @@ li {
 }
 
 
-/* style.css */
-/* ... previous styles ... */
 
 .footer {
     position: absolute;
     bottom: 0;
-    left: 50%; /* Move the left edge to the center of the container */
-    transform: translateX(-50%); /* Translate back by -50% of its own width */
+    left: 50%;
+    transform: translateX(-50%);
     text-align: center;
     background-color: #333e4900;
     padding: 10px 0;
     color: #fff;
-    width: 100%; /* Set the width to 100% to span the entire container */
+    width: 100%;
 }
 
